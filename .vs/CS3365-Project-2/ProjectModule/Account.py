@@ -6,8 +6,8 @@ class Account:
         self.address = address
         self.password = password
 
-    def createAccount(self, name):
-        print(f'creating account for {name}')
+    def createAccount(self):
+        print(f'creating account for {self.name}')
         #code for creating account
 
     def logIn(self):

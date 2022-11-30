@@ -1,5 +1,5 @@
-import Account
-import UserFunctions
+from Account import Account
+from UserFunctions import UserFunctions
 
 if __name__=="__main__":
     print("hello world")
